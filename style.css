@@ -1,0 +1,7 @@
+h1 {color: skyblue;font-size: 30px; font-family: monospace}
+
+#skyblue-heading {h1 color: skyblue;font-size: 30px; font-family: monospace}
+
+.fantasy-paragraph{
+  font-family: fantasy;
+}
