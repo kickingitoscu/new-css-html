@@ -1,0 +1,16 @@
+console.log('helloo world');
+console.log(4+4);
+///
+function checkout (item1, item2, coupon) {
+var subtotal = item1 + item2;
+var couponValue = subtotal* coupon;
+var grandTotal = subtotal - couponValue;
+console.log(grandTotal);
+};
+checkout(20,15, .1);
+checkout(12,0,0);
+checkout(500,1000,.05);
+var BP = 1.5;
+var CP = 6;
+var SC = .45;
+checkout(BP,CP,SC);
